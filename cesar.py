@@ -15,7 +15,6 @@ def choice():
     choice2 = 0
     continuer = 2
     if first == False and boucle == True:
-        print("choice2 different de 0 et boucle = True")
         while continuer !=0 and continuer != 1:
             continuer = int(input("Voulez-vous continuer ? (0=NON & 1=OUI) : "))
         if continuer == 0:
